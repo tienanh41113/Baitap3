@@ -1,0 +1,22 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="WpfApplication1.MainWindow"
+        Title="MainWindow" Height="350" Width="292">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Nhập n=" HorizontalAlignment="Left" Margin="40,22,0,0" VerticalAlignment="Top" Height="26" Width="57"/>
+        <TextBox x:Name="txtn" HorizontalAlignment="Left" Height="23" Margin="131,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtkq2" HorizontalAlignment="Left" Height="23" Margin="131,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtkq3" HorizontalAlignment="Left" Height="23" Margin="131,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <RadioButton x:Name="r1" Content="Tổng 1-&gt;n" HorizontalAlignment="Left" Margin="40,82,0,0" VerticalAlignment="Top" Height="15" Width="76" Checked="r1_Checked"/>
+        <RadioButton x:Name="rc" Content="Tổng chẵn" HorizontalAlignment="Left" Margin="40,144,0,0" VerticalAlignment="Top" Height="15" Width="75" Checked="rc_Checked"/>
+        <RadioButton x:Name="rl" Content="Tổng lẻ" HorizontalAlignment="Left" Margin="40,208,0,0" VerticalAlignment="Top" Height="15" Width="59" Checked="rl_Checked"/>
+        <Button x:Name="Tinh" Content="Tính" HorizontalAlignment="Left" Margin="40,274,0,0" VerticalAlignment="Top" Width="75" Click="Tinh_Click_1" Height="20"/>
+        <Button x:Name="huy" Content="Hủy" HorizontalAlignment="Left" Margin="176,274,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="huy_Click_1"/>
+        <TextBox x:Name="txtkq1" HorizontalAlignment="Left" Height="23" Margin="131,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>
